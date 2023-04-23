@@ -6,9 +6,9 @@ const money3: bigint; // 'const' declarations must be initialized.
 
 // Implicit initialization
 let bigIntValue: bigint = 18n;
-var money4 = bigIntValue; // number
-let money5 = bigIntValue; // number
-const money6 = bigIntValue; // 18
+var money4 = bigIntValue; // bigint
+let money5 = bigIntValue; // bigint
+const money6 = bigIntValue; // bigint
 const money7 = 18n; // 18n
 
 // explicit declaration

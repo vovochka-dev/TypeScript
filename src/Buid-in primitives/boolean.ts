@@ -15,6 +15,6 @@ const done7 = true; // true
 var done8: boolean = booleanValue; // boolean Redundant type declaration
 let done9: boolean = booleanValue; // boolean Redundant type declaration
 const done10: boolean = booleanValue; // boolean Redundant type declaration
-const done11: boolean = true; // boolean. Without type declaration: true
+const done11: boolean = true; // boolean Without type declaration: true
 
 export {};
