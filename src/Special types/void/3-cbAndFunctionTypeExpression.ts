@@ -4,15 +4,18 @@ let exp2 = function (): void {
   return 7;
 };
 
+type voidFunction = () => void;
+type unusedFunctionReturn = () => void;
 // TypeScript does not raise an error in this case because it allows the function
 // to be assigned to a variable with a wider return type, meaning a value of any type can be returned.
 // () => void - here we set function type expression
-let exp1: () => void = function () {
+let exp1: voidFunction = function () {
   return 7; // no error
 };
 
 // () => void - function type expression. Allow us to use cb with different types
 function loggerCB(cb: () => void) {
+  cb();
   console.log(cb());
 }
 loggerCB(exp1);

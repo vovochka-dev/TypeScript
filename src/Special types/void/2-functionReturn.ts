@@ -26,7 +26,7 @@ function getBudgetUndefinedAsVoid(): void {
 function getBudgetVoid2() {
   return 0;
 }
-// expect void, get number. Same error with all types except any, undefined and void
+// Expect void, get number. Same error with all types except any, undefined and void
 function getBudgetVoid3(): void {
   //@ts-expect-error
   return 0;

@@ -12,7 +12,7 @@ interface User {
   howOldAreYou(): number; //argument (there are no arguments here) + return types. Another equal syntax.
   (): Human; // if we return User here, we have to implement recursion
   //[key: string]: string; // index signatures. Error because it applies rule to all fields (already included also). In type it applies only to new attributes.
-  new (): Human; //you can use object as constructor
+  new(): Human; //you can use object as constructor
 }
 
 exports = {};

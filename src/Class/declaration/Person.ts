@@ -7,3 +7,11 @@ export default class Person {
     );
   }
 }
+
+// if implicitAny don't allow: error
+// if implicitAny allow, strictNullChecks and strictPropertyInitialization not working
+// because no sense to check field on undefined if any allow
+class User {
+  name!;
+}
+
