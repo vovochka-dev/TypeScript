@@ -38,4 +38,4 @@ console.log(calc.calculate(5, 5)); // 10
 calc.setOperator("*");
 console.log(calc.calculate(5, 5)); // 25
 
-export {};
+;

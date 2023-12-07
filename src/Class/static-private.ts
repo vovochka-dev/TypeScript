@@ -25,4 +25,4 @@ let vova = new User("Vova", 18);
 vova.info();
 User.info(vova);
 
-export {};
+;

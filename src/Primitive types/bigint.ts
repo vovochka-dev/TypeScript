@@ -17,4 +17,4 @@ let money9: bigint = 18n; // bigint Redundant type declaration
 const money10: bigint = bigIntValue; // bigint Redundant type declaration
 const money11: bigint = 18n; // bigint Without type declaration: 18n
 
-export {};
+;

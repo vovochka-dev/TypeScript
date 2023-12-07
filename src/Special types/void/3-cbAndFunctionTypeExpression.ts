@@ -29,4 +29,4 @@ loggerCB((): never => {
   throw new Error("Some error");
 });
 
-export {};
+;

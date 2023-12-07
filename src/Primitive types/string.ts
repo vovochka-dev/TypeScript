@@ -17,4 +17,4 @@ let text9: string = stringValue; // string Redundant type declaration
 const text10: string = stringValue; // string Redundant type declaration
 const text11: string = "some text"; // string Without type declaration: "some text"
 
-export {};
+;

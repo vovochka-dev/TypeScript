@@ -21,4 +21,4 @@ var inputValue10: any = anyValue; // Redundant type declaration
 let inputValue11: any = anyValue; // Redundant type declaration
 const inputValue12: any = anyValue; // Redundant type declaration
 
-export {};
+;

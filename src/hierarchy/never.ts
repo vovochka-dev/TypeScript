@@ -37,4 +37,4 @@ never = _undefined;
 never = _void;
 never = never2;
 
-export {};
+;

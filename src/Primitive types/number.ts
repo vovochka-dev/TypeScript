@@ -17,4 +17,4 @@ let age9: number = numberValue; // number Redundant type declaration
 const age10: number = numberValue; // number Redundant type declaration
 const age11: number = 18; // number Without type declaration: 18
 
-export {};
+;

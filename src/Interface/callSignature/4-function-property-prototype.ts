@@ -16,4 +16,4 @@ export function User(name: string) {
 User.age = 18; // no type checking.
 User.prototype.age = 18; // used only if User is function constructor
 
-export {};
+;

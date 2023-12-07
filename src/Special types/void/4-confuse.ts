@@ -4,4 +4,4 @@
 let string = void ("some" + "expression"); // undefined
 //let string = void // runtime error. JS expect some expression after void keyword
 
-export {};
+;

@@ -17,4 +17,4 @@ let budget9: void = voidValue; // void Redundant type declaration
 const budget10: void = voidValue; // void Redundant type declaration
 //const budget11: void = ..; // no literal in void type
 
-export {};
+;

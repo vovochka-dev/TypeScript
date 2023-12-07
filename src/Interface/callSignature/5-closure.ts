@@ -27,4 +27,4 @@ console.log(diff(10, 5)); // 5
 //@ts-expect-error
 console.log(sum.operator); // undefined
 
-export {};
+;

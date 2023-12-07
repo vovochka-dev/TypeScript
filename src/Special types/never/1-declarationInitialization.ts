@@ -19,4 +19,4 @@ const budget6 = neverValue; // never
 //const budget10: never = neverValue; // never is not assignable to type never
 //const budget11: never = ..; // no literal in never type and never is not assignable to type never
 
-export {};
+;

@@ -36,4 +36,4 @@ _undefined = _undefined;
 _undefined = _void;
 _undefined = never;
 
-export {};
+;

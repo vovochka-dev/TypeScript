@@ -32,4 +32,4 @@ function getBudgetVoid3(): void {
   return 0;
 }
 
-export {};
+;

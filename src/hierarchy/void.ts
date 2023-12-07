@@ -36,4 +36,4 @@ _void = _undefined;
 _void = _void;
 _void = never;
 
-export {};
+;

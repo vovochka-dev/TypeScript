@@ -24,4 +24,4 @@ const user2 = new User('Anna');
 const user3 = new User(18);
 const user4 = new User('Anna', 18);
 
-export {};
+;

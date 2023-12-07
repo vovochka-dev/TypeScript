@@ -36,4 +36,4 @@ unknown = _undefined;
 unknown = _void;
 unknown = never;
 
-export {};
+;

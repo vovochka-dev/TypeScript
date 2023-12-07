@@ -35,4 +35,4 @@ console.log(calculate(10, 5)); // Output: 15
 calculate.operator = "/"; // don't work
 console.log(calculate(10, 5)); // Output: 15
 
-export {};
+;

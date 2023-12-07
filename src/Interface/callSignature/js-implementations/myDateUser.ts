@@ -6,4 +6,4 @@ console.log(date1); // Mon Apr 24 2023 15:34:46 GMT+0300 (Eastern European Summe
 const date2 = MyDate();
 console.log(date2); // Mon Apr 24 2023 15:34:46 GMT+0300 (Eastern European Summer Time)
 
-export {};
+;

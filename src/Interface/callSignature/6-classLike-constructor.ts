@@ -22,4 +22,4 @@ let Vasya = createUser("Vasya", 44);
 
 console.log(Vova, Vasya);
 
-export {};
+;

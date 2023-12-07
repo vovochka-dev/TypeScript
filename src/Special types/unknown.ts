@@ -18,4 +18,4 @@ let result9: unknown = unknownValue; // unknown Redundant type declaration
 const result10: unknown = unknownValue; // unknown Redundant type declaration
 //const result11 = unknown; // we can't set unknown as value
 
-export {};
+;

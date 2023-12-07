@@ -15,4 +15,4 @@ interface User {
   new(): Human; //you can use object as constructor
 }
 
-exports = {};
+;

@@ -17,4 +17,4 @@ let result9: null = nullValue; // null Redundant type declaration
 const result10: null = nullValue; // null Redundant type declaration
 const result11: null = null; // null Redundant type declaration, we have only one literal
 
-export {};
+;

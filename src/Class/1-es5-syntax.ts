@@ -11,4 +11,4 @@ let User = function (this: User, name: string) {
 //@ts-expect-error
 const vova = new User("Vova");
 
-export {};
+;

@@ -36,4 +36,4 @@ boolean = _undefined;
 boolean = _void;
 boolean = never;
 
-export {};
+;

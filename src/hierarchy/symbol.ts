@@ -36,4 +36,4 @@ symbol = _undefined;
 symbol = _void;
 symbol = never;
 
-export {};
+;

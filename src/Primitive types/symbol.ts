@@ -17,4 +17,4 @@ let id9: symbol = symbolValue; // symbol Redundant type declaration
 const id10: symbol = symbolValue; // symbol Redundant type declaration
 const id11 = Symbol("key"); // symbol Without type declaration: typeof id11
 
-export {};
+;

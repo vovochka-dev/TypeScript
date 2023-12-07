@@ -17,4 +17,4 @@ let truth9: undefined = undefinedValue; // undefined Redundant type declaration
 const truth10: undefined = undefinedValue; // undefined Redundant type declaration
 const truth11 = undefined; // undefined Redundant type declaration, we have only one literal
 
-export {};
+;
