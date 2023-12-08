@@ -21,6 +21,7 @@ symbol = any;
 _null = any;
 _undefined = any;
 _void = any;
+//@ts-expect-error
 never = any;
 
 // children (narrowed types)

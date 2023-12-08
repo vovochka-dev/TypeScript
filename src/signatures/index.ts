@@ -28,10 +28,3 @@ let users:userList = {
     //@ts-expect-error
     "anna": userAnna
 }
-
-interface numberString2 {
-    [key in number]:string
-}
-
-
-

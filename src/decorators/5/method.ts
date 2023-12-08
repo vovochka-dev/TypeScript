@@ -1,4 +1,4 @@
-function loggedMethod(originalMethod: any, _context: any) {
+function loggedMethod(originalMethod: (this: any, ...args: any[]) => any, _context: any) {
     return function(this: any, ...args: any[]) {
         console.log("LOG: Entering method.")
         const result = originalMethod.call(this, ...args);

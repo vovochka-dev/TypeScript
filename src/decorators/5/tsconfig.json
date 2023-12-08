@@ -1,6 +1,12 @@
 {
+  "extends":"../../../tsconfig.json",
+
   "compilerOptions": {
-    "experimentalDecorators": false
+    "rootDir": "./",
+    //"outDir": "../../../dist/decorators/5", // inherit dist
+    "experimentalDecorators": false,
+    "composite": true, // esential for referenced project
   },
-  "extends": "./../../../tsconfig.json"
+
+  "exclude":[] // inherit "./src/subfolder/*"
 }

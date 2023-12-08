@@ -1,4 +1,4 @@
-function bound(_: any, context: ClassMethodDecoratorContext) {
+function bound(_: any, context: any) {
     console.log('decorator run even without class instance')
     console.log('decorator run for each method it use')
 }

@@ -1,5 +1,5 @@
 function addAge(age:number) {
-    return function(_: (...args: any) => any, context: any) {
+    return function(_: any, context: any) {
         return function (initialValue: number) {
             console.log('add age') // 1
             return age + initialValue

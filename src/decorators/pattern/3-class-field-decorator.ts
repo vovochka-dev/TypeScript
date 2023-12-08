@@ -26,6 +26,7 @@ const userAnna = new User('Anna' , 18)
 // Note that the decorator _does not_ change the TypeScript type
 // and so the new property `role` is not known
 // to the type system:
+//@ts-expect-error
 console.log(userAnna.name, userAnna.age, userAnna.role) // "Anna",  19,  "admin"
 
 /* call run sequence

@@ -1,5 +1,6 @@
-function bound(_: any, context: ClassMethodDecoratorContext) {
+function bound(method: any, context: ClassMethodDecoratorContext) {
     context.addInitializer(function () {
+        // @ts-expect-error
         this[context.name] = this[context.name].bind(this);
     });
 }
@@ -15,7 +16,7 @@ class User {
 }
 
 const anna = new User('Anna', 20);
+anna.greet()
 const greet = anna.greet;
 greet()
-
 

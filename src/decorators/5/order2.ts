@@ -1,11 +1,11 @@
-function one(_: any, context: any) {
+function one(_: any, context: any = {}) {
     console.log('one')
 }
 
-function two(_: any, context: any) {
+function two(_: any, context: any = {}) {
     console.log('two')
 }
-function three(_: any, context: any) {
+function three(_: any, context: any = {}) {
     console.log('three')
 }
 

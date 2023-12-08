@@ -25,15 +25,25 @@ _void = never;
 never = never2;
 
 // children (narrowed types)
+//@ts-expect-error
 never = any;
+//@ts-expect-error
 never = unknown;
+//@ts-expect-error
 never = string;
+//@ts-expect-error
 never = number;
+//@ts-expect-error
 never = boolean;
+//@ts-expect-error
 never = object;
+//@ts-expect-error
 never = symbol;
+//@ts-expect-error
 never = _null;
+//@ts-expect-error
 never = _undefined;
+//@ts-expect-error
 never = _void;
 never = never2;
 

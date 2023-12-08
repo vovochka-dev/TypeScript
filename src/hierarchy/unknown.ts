@@ -13,14 +13,23 @@ let never:never= (function(){throw new Error()})();
 // parents (wide types)
 any = unknown;
 unknown = unknown;
+//@ts-expect-error
 string = unknown;
+//@ts-expect-error
 number = unknown;
+//@ts-expect-error
 boolean = unknown;
+//@ts-expect-error
 object = unknown;
+//@ts-expect-error
 symbol = unknown;
+//@ts-expect-error
 _null = unknown;
+//@ts-expect-error
 _undefined = unknown;
+//@ts-expect-error
 _void = unknown;
+//@ts-expect-error
 never = unknown;
 
 // children (narrowed types)
